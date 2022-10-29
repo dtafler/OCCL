@@ -1,0 +1,1 @@
+kp(A):- consists_of_shape(A,C,D),consists_of_shape(A,B,E),not_equal(C,B),is_no_member(B,E),is_no_member(C,D).
